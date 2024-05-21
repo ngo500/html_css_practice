@@ -1,0 +1,84 @@
+body{
+    background-color:hsl(30, 54%, 90%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img{
+    height: auto;
+    width: auto;
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.recipe{
+    background-color:hsl(0, 0%, 100%);
+    width: 375px;
+    height: fit-content; 
+    text-align: left;
+    padding: 3%;
+    border-radius: 10px;
+    margin: 10px; 
+    font-size: 16px;
+    font-family: 'Outfit';
+    src: url('/assets/fonts/outfit/Outfit-VariableFont_wght.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+h1{
+    color: hsl(24, 5%, 18%);
+    font-family: 'Young-Serif';
+    src: url('assets/fonts/young-serif/YoungSerif-Regular.ttf') format('truetype');
+}
+
+h2{
+    color:  hsl(14, 45%, 36%);
+    font-family:'Young-Serif';
+    src: url('assets/fonts/young-serif/YoungSerif-Regular.ttf') format('truetype');
+}
+
+p{
+    font-family:'Outfit';
+    font-size: 16px;
+    color:  hsl(30, 10%, 34%);
+}
+
+.prep{
+    background-color:hsl(330, 100%, 98%);
+    padding: 3%;
+    border-radius: 10px;
+    margin: 10px; 
+}
+.prep h3{
+    color:hsl(332, 51%, 32%);
+}
+
+tr.last{
+    border-bottom: 0px;
+}
+
+tr{
+    border-bottom: 1px solid hsl(24, 5%, 18%);
+}
+
+td.num{
+    color:  hsl(14, 45%, 36%);
+    font-weight: 600;
+}
+
+table{
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    bottom: 0%;  }
+.attribution a { 
+    color: hsl(228, 45%, 44%); }
