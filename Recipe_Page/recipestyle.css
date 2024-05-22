@@ -5,6 +5,21 @@ body{
     align-items: center;
 }
 
+@font-face {
+    font-family: "Outfit";
+    src: local(Outfit), 
+    url('assets/fonts/outfit/Outfit-VariableFont_wght.ttf') format(truetype);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Young-Serif";
+    src: url('assets/fonts/young-serif/YoungSerif-Regular.ttf') format(truetype);
+    font-weight: normal;
+    font-style: normal;
+}
+
 img{
     height: auto;
     width: auto;
@@ -14,33 +29,28 @@ img{
 
 .recipe{
     background-color:hsl(0, 0%, 100%);
-    width: 375px;
+    width: 575px;
     height: fit-content; 
     text-align: left;
     padding: 3%;
     border-radius: 10px;
     margin: 10px; 
+    font-family: "Outfit";
     font-size: 16px;
-    font-family: 'Outfit';
-    src: url('/assets/fonts/outfit/Outfit-VariableFont_wght.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
+    font-weight: 400;
 }
 
 h1{
     color: hsl(24, 5%, 18%);
-    font-family: 'Young-Serif';
-    src: url('assets/fonts/young-serif/YoungSerif-Regular.ttf') format('truetype');
+    font-family: "Young-Serif";
 }
 
 h2{
     color:  hsl(14, 45%, 36%);
-    font-family:'Young-Serif';
-    src: url('assets/fonts/young-serif/YoungSerif-Regular.ttf') format('truetype');
+    font-family: "Young-Serif";
 }
 
 p{
-    font-family:'Outfit';
     font-size: 16px;
     color:  hsl(30, 10%, 34%);
 }
