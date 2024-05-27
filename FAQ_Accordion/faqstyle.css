@@ -39,6 +39,10 @@ p{
     background-color: hsl(292, 16%, 49%);
 }
 
+.drop{
+    display: none;
+}
+
 .accordion:after{
     content: '\02795';
     float: right;
