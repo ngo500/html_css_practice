@@ -6,15 +6,14 @@ body{
 }
 
 @font-face {
-    font-family:"Work-Sans";
-    src: local(Work-Sans),
-    url('/assets/fonts/WorkSans-VariableFont_wght.tff') format(truetype);
-    font-weight: normal;
+    font-family:"Work Sans";
+    src: local(Work Sans),
+    url('./assets/fonts/WorkSans-VariableFont_wght.ttf') format(truetype);
     font-style: normal;
 }
 
 .faqbox{
-    font-family: "Work-Sans";
+    font-family: "Work Sans";
     font-size: 16px;
     background-color: hsl(0, 0%, 100%);
 }
@@ -23,8 +22,31 @@ h1, h4{
     color: hsl(292, 42%, 14%);
 }
 
+h1{
+    font-weight: 700;
+}
+
+h4{
+    font-weight: 600;
+}
+
 p{
     color: hsl(292, 16%, 49%);
+    font-weight: 400;
+}
+
+.active, .accordion:hover{
+    background-color: hsl(292, 16%, 49%);
+}
+
+.accordion:after{
+    content: '\02795';
+    float: right;
+    margin-left: 5px;
+}
+
+.active:after{
+    content: "\2796";
 }
 
 .attribution { 
